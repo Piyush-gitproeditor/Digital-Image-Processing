@@ -1,0 +1,9 @@
+a=int(input("1st number : "))
+b=int(input("2nd number: "))
+x=a
+y=b
+while y!=0:
+    remainder =x%y
+    x=y
+    y= remainder 
+print ("GCD =",x)
